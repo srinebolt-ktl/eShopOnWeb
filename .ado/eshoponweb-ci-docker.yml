@@ -8,8 +8,8 @@ resources:
 variables:
   azureServiceConnection: 'azure-connection'
   subscriptionId: '9898d4ff-a248-4767-98c9-c029d89a10f7'
-  resourceGroup: 'rg-az400-eshopeonweb-eshoponweb'
-  location: 'westeurope'
+  resourceGroup: 'rg-az400-container-eshoponweb'
+  location: 'eastus'
 
 stages:
 - stage: Build
