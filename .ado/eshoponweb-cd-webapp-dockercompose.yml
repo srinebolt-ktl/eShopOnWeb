@@ -12,7 +12,7 @@ resources:
 variables:
   tag: '$(Build.BuildId)'
   resource-group: 'AZ400-EWebShop-keyvault-example'
-  location: 'westeurope'
+  location: 'eastus'
   templateFile: '.ado/IaC/app-plan.bicep'
   subscriptionid: '9898d4ff-a248-4767-98c9-c029d89a10f7'
   azureserviceconnection: 'azure subs'
@@ -30,6 +30,7 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps:
+    
     # Deploy App Service Plan using Bicep
     - task: AzureResourceManagerTemplateDeployment@3
       displayName: Deploy App Service Plan Bicep
