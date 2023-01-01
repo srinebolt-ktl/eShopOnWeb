@@ -15,7 +15,7 @@ variables:
   location: 'eastus'
   templateFile: '.ado/IaC/app-plan.bicep'
   subscriptionid: '9898d4ff-a248-4767-98c9-c029d89a10f7'
-  azureserviceconnection: 'azure subs'
+  azureserviceconnection: 'azure-connection'
   webappname: 'az400-webapp-compose-keyvault-example'
   composeFile: 'docker-compose-webapp.yml'
   acr-login-server: 'YOUR-ACR.azurecr.io'
