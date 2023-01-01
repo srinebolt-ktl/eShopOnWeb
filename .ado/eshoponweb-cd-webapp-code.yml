@@ -9,12 +9,12 @@ resources:
 
 
 variables:
-  resource-group: 'AZ400-EWebShop-NAME'
-  location: 'westeurope'
+  resource-group: 'AZ400-EWebShop-featureflag'
+  location: 'eastus'
   templateFile: '.azure/bicep/webapp.bicep'
-  subscriptionid: 'YOUR-SUBSCRIPTION-ID'
-  azureserviceconnection: 'azure subs'
-  webappname: 'az400-webapp-NAME'
+  subscriptionid: '9898d4ff-a248-4767-98c9-c029d89a10f7'
+  azureserviceconnection: 'azure-connection'
+  webappname: 'az400-webapp-featureflag'
   # webappname: 'webapp-windows-eshop'
   
 
