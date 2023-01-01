@@ -36,8 +36,8 @@ stages:
       displayName: Deploy App Service Plan Bicep
       inputs:
         deploymentScope: 'Resource Group'
-        azureResourceManagerConnection: $(azureserviceconnection)
-        subscriptionId: $(subscriptionid)
+        azureResourceManagerConnection: 'azure-connection'
+        subscriptionId: '9898d4ff-a248-4767-98c9-c029d89a10f7'
         action: 'Create Or Update Resource Group'
         resourceGroupName: '$(resource-group)'
         location: '$(location)'
