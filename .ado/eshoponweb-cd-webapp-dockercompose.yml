@@ -11,12 +11,12 @@ resources:
 
 variables:
   tag: '$(Build.BuildId)'
-  resource-group: 'AZ400-EWebShop-NAME'
+  resource-group: 'AZ400-EWebShop-keyvault-example'
   location: 'westeurope'
   templateFile: '.ado/IaC/app-plan.bicep'
-  subscriptionid: 'YOUR-SUBSCRIPTION-ID'
+  subscriptionid: '9898d4ff-a248-4767-98c9-c029d89a10f7'
   azureserviceconnection: 'azure subs'
-  webappname: 'az400-webapp-compose-NAME'
+  webappname: 'az400-webapp-compose-keyvault-example'
   composeFile: 'docker-compose-webapp.yml'
   acr-login-server: 'YOUR-ACR.azurecr.io'
   acr-username: 'YOUR-ACR'
